@@ -12,7 +12,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ["Helvetica", "Arial", "sans-serif"]
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("daisyui")
+  ],
+  daisyui: {
+    themes: ["light", "dark", "nord"]
+  }
 } satisfies Config;
