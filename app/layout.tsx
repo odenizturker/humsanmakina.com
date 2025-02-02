@@ -14,8 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hümsan",
+  title: "Hümsan Makine",
   description: "Hümsan Makine Otomasyon Sanayi Ticaret Limited Şirketi",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

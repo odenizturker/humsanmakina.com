@@ -37,7 +37,6 @@ const Contact = () => {
           title="Hümsan Makine Konum"
           className="w-full h-full rounded-lg shadow-lg"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1825.1178643813914!2d29.383511528165144!3d37.86417033633716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c71d014f4f78b1%3A0xe4b01ce2ca63dd90!2sH%C3%BCmsan%20Makine%20Otomasyon%20Sanayi%20Ticaret%20Limited%20%C5%9Eirketi!5e1!3m2!1str!2sde!4v1738442483258!5m2!1str!2sde"
-          allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>

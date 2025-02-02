@@ -11,9 +11,15 @@ const NavBar = () => {
         { label: 'Products', href: '/products' }, { label: 'About Us', href: '/about-us' }
     ]
   return (
-    <nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
-        <Link href="/">Logo</Link>
-        <ul className='flex space-x-6'>
+    <nav className='flex space-x-6 border-b px-10 h-25 items-center'>
+        <div className="avatar">
+            <div className="w-24 rounded">
+                <img src="/logo.png"/>
+            </div>
+        </div>
+        <p className='font-bold text-neutral'>Hümsan Tarım ve Hayvancılık Ekipmanları</p>
+        {/* TODO: Add Other Pages
+        <ul className='flex space-x-10'>
             {links.map(link =>
             <Link 
             key={link.href}
@@ -26,7 +32,7 @@ const NavBar = () => {
                 {link.label}
             </Link>
         )}
-        </ul>
+        </ul> */}
     </nav>
   )
 }

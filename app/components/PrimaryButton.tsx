@@ -1,11 +1,22 @@
 'use client'
 import React from 'react'
 
-export const PrimaryButton = ({text, onClick}) => {
+type PrimaryButtonProps = {
+  text: string;
+};
+
+export const PrimaryButton = ({ text }: PrimaryButtonProps) => {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  
   return (
     <button
     className="btn btn-outline btn-primary btn-block text-bold"
-    onClick={onClick}
+    onClick={scrollToContact}
     >{text}</button>
   )
 }
