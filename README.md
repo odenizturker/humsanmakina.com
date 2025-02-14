@@ -1,5 +1,7 @@
 # https://humsanmakina.com
 
+![Gif](/humsan_makine.gif)
+
 This project is a **Next.js**-based website for Hümsan Makina, designed with **Tailwind CSS** and **DaisyUI** to ensure a responsive and modern UI. The site includes features such as a dynamic image swiper, product previews, contact sections, and a structured footer.
 
 ## 🚀 **Tech Stack & Libraries**
